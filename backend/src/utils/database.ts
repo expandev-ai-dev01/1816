@@ -19,7 +19,6 @@ const poolConfig: sql.config = {
   password: config.database.password,
   options: {
     ...config.database.options,
-    defaultSchema: projectSchema,
   },
 };
 
